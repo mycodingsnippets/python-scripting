@@ -1,6 +1,6 @@
 python3 -m pip install pipenv
 pipenv shell
-pip freeze
+pip freeze > requirements.txt
 pipenv install
 pipenv install flask
 pipenv install -r requirements.txt
